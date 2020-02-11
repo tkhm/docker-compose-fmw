@@ -26,7 +26,7 @@ ENV SCRATCH=/tmp/scratch ORACLE_GROUP=oinstall ORACLE_USER=oracle ORACLE_HOME=/u
 
 CMD /bin/bash
 
-COPY jdk-8u241-linux-x64.tar.gz V779119-01.zip V779244-01.zip ${SCRATCH}/
+COPY jdk-8u241-linux-x64.tar.gz V983364-01.zip V983399-01.zip ${SCRATCH}/
 #COPY jdk-8u74-linux-x64.tar.gz fmw_12.2.1.0.0_infrastructure_Disk1_1of1.zip fmw_12.2.1.0.0_wccontent_Disk1_1of1.zip p22331568_122100_Generic.zip p22541322_122100_Generic.zip p22585448_122100_Generic.zip ${SCRATCH}/
 
 RUN	yum update -y -q && \
